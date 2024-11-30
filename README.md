@@ -1,5 +1,9 @@
 # Nova Scotia Road Index Update - December, 2024
 Code for updating Nova Scotia Road Index + technical report supplementary materials
+<br/>
+**RoadIndexModel.py** - Original Road Index model
+**RoadIndexModel_Species** - Road Index model designed to calculate values for specific species of the user's choosing
+<br/>
 
 Figure S1. Histogram of road density values for 1 km2 tiles covering the land area of Nova Scotia.
 ![image](https://github.com/user-attachments/assets/180a6583-6259-48fc-94bb-0c640b437078)
