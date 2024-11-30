@@ -3,7 +3,7 @@ Code for updating Nova Scotia Road Index + technical report supplementary materi
 
 **RoadIndexModel.py** - Original Road Index model
 
-**RoadIndexModel_Species** - Road Index model designed to calculate values for specific species of the user's choosing
+**RoadIndexModel_Species.py** - Road Index model designed to calculate values for specific species of the user's choosing
 
 
 Figure S1. Histogram of road density values for 1 km2 tiles covering the land area of Nova Scotia.
