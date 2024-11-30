@@ -1,9 +1,9 @@
 # Nova Scotia Road Index Update - December, 2024
 Code for updating Nova Scotia Road Index + technical report supplementary materials
-<br/>
+
 **RoadIndexModel.py** - Original Road Index model
 **RoadIndexModel_Species** - Road Index model designed to calculate values for specific species of the user's choosing
-<br/>
+
 
 Figure S1. Histogram of road density values for 1 km2 tiles covering the land area of Nova Scotia.
 ![image](https://github.com/user-attachments/assets/180a6583-6259-48fc-94bb-0c640b437078)
@@ -28,10 +28,10 @@ Figure S6. Simple regression analysis of road avoidance values of snake species 
 Figure S7. Simple regression analysis of road avoidance values of bat species vs. the linear weighted values of the Road Index feature type. R2 = 1.
 ![image](https://github.com/user-attachments/assets/1fd451e1-61d0-466f-aee3-1b3025b0d79c)
 
-Figure S8. Simple regression analysis of road avoidance values of mainland moose (Alces alces americana) vs. the linear weighted values of the Road Index feature type. R2 = 1.  
+Figure S8. Simple regression analysis of road avoidance values of mainland moose (_Alces alces americana_) vs. the linear weighted values of the Road Index feature type. R2 = 1.  
 ![image](https://github.com/user-attachments/assets/d3734f84-74d0-4190-bad4-7f919cacf736)
 
-Figure S9. Simple regression analysis of road avoidance values of bears (Ursus americanus) vs. the linear weighted values of the Road Index feature type. R2 = 0.905.
+Figure S9. Simple regression analysis of road avoidance values of bears (_Ursus americanus_) vs. the linear weighted values of the Road Index feature type. R2 = 0.905.
 ![image](https://github.com/user-attachments/assets/de313237-1b48-436d-ada4-cd43a60b6681)
 
 Figure S10. Road Index Values from final output Road Index. 
