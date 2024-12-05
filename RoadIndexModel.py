@@ -70,15 +70,15 @@ field_name = "Road_Index"
 expression = "classify(!feat_code!, !street!)"
 code_block = """
 def classify(featcode, street):
-    trails = ['RRRDAB', 'RRRD54', 'RRRR54', 'RRRDTK5', 'RRRDTR',
+    trails = ['AB', 'RRRD54', 'RRRR54', 'RRRDTK5', 'RRRDTR',
     'RRBRAB', 'RRBR54', 'RRBRTK5', 'RRBRTR50', 'RRTUTK50']
     gravelroads = ['RRRDMC', 'RRRDRA', 'RRRDSL',
-    'RRRR5', 'RRRDDW5', 'RRBRMC', 'RRBRRA', 'RRBRSL', 'RRBRDW5', 'RRDM', 'RRTURADWZ2', 'RRTULOZ2', 'RRTUSL']
+    'RRRR5', 'RRBRLODWZ2', 'RRBRRADWZ2', 'RRRDLODWZ2', 'RRRDRADW', 'RRBRMC', 'RRBRRA', 'RRBRSL', 'RRBRDW5', 'RRDM', 'RRTURADWZ2', 'RRTULOZ2', 'RRTUSL']
     pavedroads = ['RRRDAT', 'RRRDCO', 'RRRDLO', 'RRRDRP', 'RRBRAT', 'RRBRCO', 'RRBRRP',
     'RRBRLO', 'RRRDLA', 'RRRDLC', 'RRBRLA', 'RRBRLC', 'RRRDLH',
     'RRBRLH', 'RRTUAT', 'RRBRCO', 'RRTULO', 'RRTURP', 'RRTULA', 'RRTULC', 'RRTULH' ]
     # Divided highways includes 100 series highways
-    divided = ['DV', 'HW', 'TC']
+    divided = ['HW', 'TC']
     namedhighways = ['Highway' ]
     
     # minimaldist and unknown cover categories of road not included in the Road Index. They can be run (comments removed) to categorize all available features in NSRN. Otherwise, the Road_Index type will be set to Null
